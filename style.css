@@ -1,0 +1,63 @@
+/* Set margin and padding to 0 for the entire page */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set a background color for the page */
+  body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: #1e90ff;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  /* Style the main content */
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Style the sections */
+  section {
+    margin-bottom: 20px;
+  }
+  
+  /* Style the headings */
+  h1, h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the paragraphs */
+  p {
+    margin-bottom: 10px;
+  }
+  
+  /* Style the code blocks */
+  code {
+    background-color: #f5f5f5;
+    font-family: monospace;
+    padding: 2px 4px;
+  }
+  
+  /* Style the button */
+  .button {
+    display: inline-block;
+    background-color: #1e90ff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+  
