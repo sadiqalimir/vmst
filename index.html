@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Von Mises Stress and Failure Prediction Tool</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Von Mises Stress and Failure Prediction Tool</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Introduction</h2>
+            <p>This Python tool is designed to help engineers and researchers in the field of aerospace engineering to analyze the stress-strain behavior of a material under various loading conditions. The tool calculates the von Mises stress at each point in a given stress field and checks if the material will fail under the given load.</p>
+        </section>
+
+        <section>
+            <h2>Usage</h2>
+            <p>The tool can be used by importing the required libraries and running the provided functions. 
+                The user will be prompted to input the required parameters for the analysis. 
+                <br>The output of the analysis includes two plots:
+
+                <br> 1. A 3D plot of the von Mises stress distribution in the stress field.
+                <br> 2. A 2D plot of the stress-strain curve of the material.</br>
+                <p>
+        </section> 
+
+        <section>
+            <h2>Functions</h2>
+            <p>The tool provides the following functions:
+               <br> von_mises(sigma_x, sigma_y, tau_xy)</br>
+                
+                This function calculates the von Mises stress at a given point in a stress field, given the normal stresses sigma_x and sigma_y, and the shear stress tau_xy.
+               <br> is_failure(sigma_x, sigma_y, tau_xy, yield_strength)</br>
+                
+                This function checks if the material will fail under the given load, given the normal stresses sigma_x and sigma_y, the shear stress tau_xy, and the yield strength of the material.
+            </p>
+        </section>
+    
+        <section>
+
+            <h2>Installation</h2>
+            <p>The tool requires NumPy and Matplotlib libraries to be installed. These can be installed using pip or another package manager. For example:</p>
+            <br><code>pip install numpy matplotlib</code>
+        </section>
+        <section>
+            <h2>Usage</h2>
+            <p>The tool is designed to be run from the command line. Once installed, navigate to the directory containing the tool and execute the following command:</p>
+            <code>python von_mises.py</code>
+            <p>The tool will prompt the user to enter the minimum and maximum values of sigma_x, sigma_y, and tau_xy, as well as the yield strength of the material. These parameters define the stress state of the material.</p>
+            <p>The tool will then calculate the von Mises stress at each point in a grid of coordinates, and predict whether the material will fail under the given load.</p>
+            <p>Finally, the tool will create two plots:</p>
+            <ul>
+                <li>A 3D plot of the von Mises stress distribution.</li>
+                <li>A 2D plot of the stress-strain curve.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Contributors</h2>
+            <p>
+
+                This tool was created by undergraduate aerospace engineering students at RV College of Engineering in Bangalore, India, as part of an experimental learning project.The contributors are:
+                <li>Sadiq Ali</li>
+                <li>Eshwari B N</li>
+                <li>Robin Ricky</li>
+                <li>Kishor A</li>
+                <li>Nivedita Y</li>
+                <li>Inchara NK</li>
+                <li>Anubhuti BC Mishra</li>
+                <li>Homa Krishna Anita</li>
+                <li>Nagegowda RS</li><br>
+
+                
+                The project was supervised by<br>
+                
+                <li>Prof. Benjamin Rohit (Department of Aerospace Engineering, RVCE)</li>
+                <li>Prof. Vidya Patil (Department of Mathematics, RVCE) </li>     
+            </p>  
+        </section>
+        <section>
+            <h2>Download</h2>
+            <p>You can download the Python code for the von Mises stress and failure prediction tool by clicking the button below:</p>
+            <a href="von_mises.zip" download class="button">Download</a>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Von Mises Stress and Failure Prediction Tool </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
